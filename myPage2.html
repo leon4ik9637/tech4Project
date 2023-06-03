@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>More HTML Tags</title>
+    <style type="text/css">
+        h2, h3, th{
+            color: blueviolet;
+        }
+        table{
+            background-color: lightgray;
+        }
+        th, td{
+            border: 1px dashed gray;
+        }
+        #password{
+            border-color: red
+        }
+    </style>
+</head>
+
+<body>
+    <h2>HTML Lists</h2>
+    <h3>Shopping List (Unordered)</h3>
+
+    <ul>
+        <li>Banana</li>
+        <li>Kiwi</li>
+        <li>Milk</li>
+    </ul>
+
+    <h3>TO DO List (Ordered)</h3>
+    <ol>
+        <li>HTML</li>
+        <li>Selenium WebDriver</li>
+        <li>TestNG</li>
+        <li>JUnit</li>
+        <li>Cucumber</li>
+    </ol>
+
+    <hr>
+    <h2>Tables</h2>
+    <table>
+        <thread>
+            <!--Column Headers goes here-->
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Location</th>
+            </tr>
+        </thread>
+
+        <tbody>
+            <!--Table Info goes here-->
+            <tr>
+                <td>Abe</td>
+                <td>Kim</td>
+                <td>20</td>
+                <td>Chicago</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>45</td>
+                <td>Naperville</td>
+            </tr>
+            <tr>
+                <td>Taylor</td>
+                <td>Green</td>
+                <td>24</td>
+                <td>Scottsdale</td>
+            </tr>
+            <tr>
+                <td>Regina</td>
+                <td>Don</td>
+                <td>27</td>
+                <td>Chicago</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h2>Forms</h2>
+    <h3>Login Form</h3>
+    <input type="username" name="username" id="username"
+    placeholder="Username" maxlength="5">
+    <br><br>
+    <input type="password" name="password" id="password"
+    placeholder="Password">
+    <br><br>
+    <input type="submit" name="submit" id="submit">
+    <input type="reset" name="reset" id="reset">
+
+    <h3>Personal Information Form</h3>
+    <input type="text" name="" placeholder="First name"> <br><br>
+    <input type="text" name="" placeholder="Last name"> <br><br>
+    <input type="text" name="" placeholder="Email"> <br><br>
+    <input type="text" name="" placeholder="Phone"> <br><br>
+    <input type="date" name="" placeholder="DOB"> <br><br>
+    <input type="color" name="" placeholder="DOB"> <br><br>
+    <textarea placeholder="How did you hear about us..." cols="30" rows="5"></textarea><br>
+    <button>CLICK HERE TO SUBMIT</button>
+
+    <br><br><br><br><br><br>
+
+    <h3>Multiple Selection Form</h3>
+    <p>Please select the tools you know</p>
+    <input type="checkbox" name="Selenium" id="selenium">
+    <label for="selenium">Selenium</label><br>
+    <input type="checkbox" name="appium" id="appium">
+    <label for="appium">Appium</label><br>
+    <input type="checkbox" name="junit" id="junit">
+    <label for="junit">JUnit</label><br>
+    <input type="checkbox" name="testng" id="testng">
+    <label for="testng">TestNG</label><br>
+
+    <h3>Single Selection Form</h3>
+    <p>Please select the language you want to code</p>
+    <input type="radio" name="pl" id="java">
+    <label for="java">Java</label><br>
+    <input type="radio" name="pl" id="c#">
+    <label for="c#">C#</label><br>
+    <input type="radio" name="pl" id="javascript">
+    <label for="javascript">JavaScript</label><br>
+
+    <h2>HTML Dropdowns</h2>
+    <p>Please select your gender</p>
+    <select>
+        <option selected disabled> Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Prefer not to answer</option>
+    </select>
+    <p>Please select your gender</p>
+    <select>
+        <option selected disabled>Color</option>
+        <option>Yellow</option>
+        <option>Brown</option>
+        <option>Orange</option>
+        <option>Red</option>
+        <option>Purple</option>
+    </select>
+
+    <br><br><br><br><br><br>
+</body>
+</html>
